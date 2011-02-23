@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+  	<parent>
+      <groupId>org.liveSense</groupId>
+      <artifactId>org.liveSense.parent</artifactId>
+      <version>1-SNAPSHOT</version>
+  	</parent>
+
+  <scm>
+      <connection>scm:git:git://github.com/liveSense/org.liveSense.misc.jsr303</connection>
+      <developerConnection>scm:git:git://github.com/liveSense/org.liveSense.misc.jsr303</developerConnection>
+      <url>https://github.com/liveSense/org.liveSense.misc.jsr303</url>
+  </scm>  
+  
+	<groupId>org.liveSense</groupId>
+	<artifactId>org.liveSense.misc.jsr303</artifactId>
+	<packaging>bundle</packaging>
+	<version>1.0.0-SNAPSHOT</version>
+	<name>liveSense JSR 303 Bean Validation</name>
+	<description>liveSense JSR 303 Bean Validation
+	</description>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.sling</groupId>
+				<artifactId>maven-sling-plugin</artifactId>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.felix</groupId>
+				<artifactId>maven-bundle-plugin</artifactId>
+				<extensions>true</extensions>
+				<configuration>
+					<instructions>
+						<!-- Which java packages are exported for other bundles -->
+						<Import-Package>
+							*;resolution:=optional
+						</Import-Package>
+						<Export-Package>
+							javax.validation.*
+						</Export-Package>
+                        <Embed-Dependency>
+                       		hibernate-validator
+                        </Embed-Dependency>                        
+					</instructions>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+			<version>1.0.0.GA</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>4.0.2.GA</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+		</dependency>
+	</dependencies>
+</project>
