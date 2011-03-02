@@ -9,8 +9,8 @@
   	</parent>
 
   <scm>
-      <connection>scm:git:git://github.com/liveSense/org.liveSense.misc.jsr303</connection>
-      <developerConnection>scm:git:git://github.com/liveSense/org.liveSense.misc.jsr303</developerConnection>
+      <connection>scm:git:git://github.com/liveSense/org.liveSense.misc.jsr303.git</connection>
+      <developerConnection>scm:git:git://github.com/liveSense/org.liveSense.misc.jsr303.git</developerConnection>
       <url>https://github.com/liveSense/org.liveSense.misc.jsr303</url>
   </scm>  
   
