@@ -39,7 +39,8 @@
 							*;resolution:=optional
 						</Import-Package>
 						<Export-Package>
-							javax.validation.*
+							javax.validation.*,
+							org.hibernate.*
 						</Export-Package>
                         <Embed-Dependency>
                        		hibernate-validator
