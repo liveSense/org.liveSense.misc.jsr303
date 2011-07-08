@@ -36,14 +36,15 @@
 					<instructions>
 						<!-- Which java packages are exported for other bundles -->
 						<Import-Package>
-							*;resolution:=optional
+							!com.googlecode.jtype.*,
+							*
 						</Import-Package>
 						<Export-Package>
-							javax.validation.*,
-							org.hibernate.*
+							javax.validation.*;-split-package:=merge-first,
+							org.hibernate.validator.*;-split-package:=merge-first
 						</Export-Package>
                         <Embed-Dependency>
-                       		hibernate-validator
+							hibernate-validator;inline=true
                         </Embed-Dependency>                        
 					</instructions>
 				</configuration>
