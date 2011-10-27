@@ -16,7 +16,7 @@
   
 	<artifactId>org.liveSense.misc.jsr303</artifactId>
 	<packaging>bundle</packaging>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0-1.0.0.GA-SNAPSHOT</version>
 	<name>liveSense JSR 303 Bean Validation</name>
 	<description>liveSense JSR 303 Bean Validation
 	</description>
