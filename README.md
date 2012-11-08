@@ -1,7 +1,9 @@
 # [liveSense :: Misc :: JSR 303 Bean Validation - org.liveSense.misc.jsr303](http://github.com/liveSense/org.liveSense.misc.jsr303)
+
 ## Description
 liveSense JSR 303 Bean Validation
-## Exported packages
+
+## OSGi Exported packages
 * javax.validation(1.0.0.1_0_0_GA-SNAPSHOT)
 * javax.validation.bootstrap(1.0.0.1_0_0_GA-SNAPSHOT)
 * javax.validation.constraints(1.0.0.1_0_0_GA-SNAPSHOT)
@@ -19,7 +21,8 @@ liveSense JSR 303 Bean Validation
 * org.hibernate.validator.util(1.0.0.1_0_0_GA-SNAPSHOT)
 * org.hibernate.validator.util.annotationfactory(1.0.0.1_0_0_GA-SNAPSHOT)
 * org.hibernate.validator.xml(1.0.0.1_0_0_GA-SNAPSHOT)
-## Dependencies
+
+## OSGi Dependencies
 * __System Bundle - org.apache.felix.framework (3.0.8)__
 	* javax.xml.bind
 	* javax.xml.bind.annotation
@@ -29,8 +32,12 @@ liveSense JSR 303 Bean Validation
 	* javax.xml.transform.stream
 	* javax.xml.validation
 	* org.xml.sax
-* __[liveSense :: Extension :: javax.persistence - org.liveSense.misc.javax.persistence](http://github.com/liveSense/org.liveSense.misc.javax.persistence) (1.0.1.1_0-SNAPSHOT)__
+* __[liveSense :: Extension :: javax.persistence - org.liveSense.misc.javax.persistence (2-SNAPSHOT)](http://github.com/liveSense/org.liveSense.misc.javax.persistence)__
 	* javax.persistence
 * __slf4j-api - slf4j.api (1.6.1)__
 	* org.slf4j
-## Embedded JARs
+
+## OSGi Embedded JARs
+
+## Dependency Graph
+![alt text](http://raw.github.com.everydayimmirror.in/liveSense/org.liveSense.misc.jsr303/master/osgidependencies.svg "")
