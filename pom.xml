@@ -7,12 +7,12 @@
 		<version>2-SNAPSHOT</version>
 		<relativePath>..</relativePath>
 	</parent>
-
 	<scm>
-		<connection>scm:git:git://github.com/liveSense/org.liveSense.misc.jsr303.git</connection>
-		<developerConnection>scm:git:git://github.com/liveSense/org.liveSense.misc.jsr303.git</developerConnection>
+		<connection>scm:git:https://github.com/liveSense/org.liveSense.misc.jsr303.git</connection>
+		<developerConnection>scm:git:https://github.com/liveSense/org.liveSense.misc.jsr303.git</developerConnection>
 		<url>https://github.com/liveSense/org.liveSense.misc.jsr303</url>
 	</scm>
+
 
 	<artifactId>org.liveSense.misc.jsr303</artifactId>
 	<packaging>bundle</packaging>
