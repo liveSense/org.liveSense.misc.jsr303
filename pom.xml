@@ -4,9 +4,10 @@
 	<parent>
 		<groupId>com.github.livesense</groupId>
 		<artifactId>org.liveSense.parent</artifactId>
-		<version>2-SNAPSHOT</version>
+		<version>1.0.3</version>
 		<relativePath>..</relativePath>
 	</parent>
+    <version>1.0.3-SNAPSHOT</version>
 	<scm>
 		<connection>scm:git:https://github.com/liveSense/org.liveSense.misc.jsr303.git</connection>
 		<developerConnection>scm:git:https://github.com/liveSense/org.liveSense.misc.jsr303.git</developerConnection>
@@ -16,7 +17,6 @@
 
 	<artifactId>org.liveSense.misc.jsr303</artifactId>
 	<packaging>bundle</packaging>
-	<version>1.0.0-1.0.0.GA-SNAPSHOT</version>
 	<name>liveSense :: Misc :: JSR 303 Bean Validation</name>
 	<description>liveSense JSR 303 Bean Validation
 	</description>
